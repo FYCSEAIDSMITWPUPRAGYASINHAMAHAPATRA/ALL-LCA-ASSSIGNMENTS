@@ -1,1 +1,5 @@
-
+students_dict = {
+    1: "Alice",
+    2: "Bob",
+    3: "Charlie"}
+print("Original Dictionary:", students_dict)
