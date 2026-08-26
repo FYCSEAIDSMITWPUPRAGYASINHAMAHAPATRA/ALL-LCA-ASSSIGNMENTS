@@ -1,1 +1,20 @@
+#input : three number from the user
 
+num1 = float(input("Enter First number :"))
+num2 = float(input("Enter Second number :"))
+num3 = float(input("Enter third number :"))
+
+#Determine the greatest number
+if num1 >= num2 and num1 >= num3:
+    greatest = num1
+elif num2 >= num1 and num2 >= num3:
+    greatest = num2 
+else:
+    greatest = num3
+    print(greatest)
+
+#output:
+Enter First number : 4
+Enter Second number : 5
+Enter third number : 6
+6.0
