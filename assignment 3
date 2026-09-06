@@ -32,6 +32,38 @@ Enter side 3: 6
 Enter side 4: 0
 Triangle
 
+# Check whether a triangle is right-angled
+
+a = float(input("Enter first side: "))
+b = float(input("Enter second side: "))
+c = float(input("Enter third side: "))
+
+# Find the largest side
+if a >= b and a >= c:
+    largest = a
+    x = b
+    y = c
+elif b >= a and b >= c:
+    largest = b
+    x = a
+    y = c
+else:
+    largest = c
+    x = a
+    y = b
+
+# Check Pythagoras theorem
+if largest ** 2 == x ** 2 + y ** 2:
+    print("The triangle is a right-angled triangle.")
+else:
+    print("The triangle is not a right-angled triangle.")
+
+#output
+
+Enter first side: 3
+Enter second side: 4
+Enter third side: 5
+The triangle is a right-angled triangle.
 
 
 
