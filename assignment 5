@@ -1,1 +1,19 @@
+#Input CODE
+s = input("Enter a string: ")
 
+if s.isalnum():
+    print("Valid string")
+else:
+    print("Invalid string")
+
+Ex - 
+#input 
+Enter a string: Hello123
+#output 
+Valid string
+
+Ex -
+#input 
+Enter a string: Hello@123
+#output
+Invalid string
